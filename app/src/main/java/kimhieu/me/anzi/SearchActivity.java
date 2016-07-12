@@ -179,7 +179,6 @@ public class SearchActivity extends AppCompatActivity {
                     foursquareResultFragment = FoursquareResultFragment.newInstance(1);
                     return foursquareResultFragment;
                 }
-
             }
             return null;
         }

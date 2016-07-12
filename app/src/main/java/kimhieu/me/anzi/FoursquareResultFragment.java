@@ -85,7 +85,11 @@ public class FoursquareResultFragment extends Fragment {
             }
             mAdapter = new FoursquareResultRecyclerViewAdapter(venueList, mListener);
             recyclerView.setAdapter(mAdapter);
+
+
         }
+
+
         return view;
     }
 
@@ -134,4 +138,6 @@ public class FoursquareResultFragment extends Fragment {
         EventBus.getDefault().unregister(this);
         super.onStop();
     }
+
+
 }
